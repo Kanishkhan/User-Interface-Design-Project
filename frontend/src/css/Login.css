@@ -1,0 +1,76 @@
+
+body.login-body {
+    background-color: black;
+    margin: 0; /* Reset margin since we are in a single page app now, or handle specifically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-form {
+    background-color: black;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #ebe6e6;
+}
+
+/* Full-width inputs */
+.login-form input[type=text], .login-form input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login-form button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Changed to 100% for better mobile responsiveness, or keep 20% if strict */
+    max-width: 200px;
+}
+
+/* Add a hover effect for buttons */
+.login-form button:hover {
+    opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 20%;
+    border-radius: 50%; /* Optional: usually avatars are round */
+}
+
+/* Add padding to containers */
+.login-container {
+    width: 80%; /* Adjusted for responsiveness */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(93, 115, 115);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}

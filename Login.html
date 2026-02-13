@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    body{
+            background-color:black;
+            margin: 100px;
+        }   
+     form {
+        background-color: black;
+        width: 900px;
+        height:650px; 
+      margin-left: 15%;  }
+      h2{
+        text-align: center;
+        color:#ebe6e6;
+      }
+      /* Full-width inputs */
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      /* Set a style for all buttons */
+      button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 20%;
+      }
+      
+      /* Add a hover effect for buttons */
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      /* Extra style for the cancel button (red) */
+      
+      /* Center the avatar image inside this container */
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+      
+      /* Avatar image */
+      img.avatar {
+        width: 20%;
+        
+      }
+      
+      /* Add padding to containers */
+      .container {
+        width: 50%;
+        margin-left: 230px;
+        padding: 20px;
+        background-color:rgb(93, 115, 115);
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+      
+      /* The "Forgot password" text */
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+    </style>
+</head>
+<body>
+  <script>
+    function redirect_to_home(){
+      window.location.href = "index.html";
+    }
+  </script>
+<form action="index.html">
+    <div class="imgcontainer">
+      <img src="Logo.jpeg" alt="Avatar" class="avatar">
+      
+    </div>
+    <h2>"NRGK Fashions: Elevate Your Wardrobe"</h2>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button><br><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+</body>
+</html>
