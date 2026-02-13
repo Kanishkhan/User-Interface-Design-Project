@@ -61,13 +61,3 @@ User-Interface-Design-Project/
 3.  **Open `index.html`:**
     Simply double-click the `index.html` file to launch the website in your default web browser.
 
-## 👥 Contributors
-
-*   **Kanishkhan** - *Project Owner & Lead Developer*
-*   **Girish** - *Contributor*
-
----
-
-<p align="center">
-  Made with ❤️ by Kanishkhan
-</p>
